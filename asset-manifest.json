@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dashboardzyp/static/css/main.a96ede25.css",
+    "main.js": "/dashboardzyp/static/js/main.78842140.js",
+    "index.html": "/dashboardzyp/index.html",
+    "main.a96ede25.css.map": "/dashboardzyp/static/css/main.a96ede25.css.map",
+    "main.78842140.js.map": "/dashboardzyp/static/js/main.78842140.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a96ede25.css",
+    "static/js/main.78842140.js"
+  ]
+}
