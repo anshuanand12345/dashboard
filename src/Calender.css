@@ -1,0 +1,10 @@
+.cal{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+        width: 900px;
+        height: 400px;
+        padding: 70px 20%;
+       background-color: aqua;
+}
+

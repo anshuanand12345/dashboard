@@ -1,0 +1,36 @@
+.center {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-gap: 30px;
+    padding: 10px 70px;
+}
+
+.center .box {
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    background:
+        linear-gradient(rgb(116, 113, 180), transparent),
+        linear-gradient(to top left, blue, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    padding: 20px;
+    color: white;
+    transition: transform .5s;
+    
+
+}
+.center .box:hover{
+    transform: scale(1.1);
+           
+}
+.center .box .con{
+  margin: 10px;
+  font-size: 55px;
+}
+.center .box h1{
+    margin: 10px;
+     font-size: 35px;
+     font-weight: 300;
+}

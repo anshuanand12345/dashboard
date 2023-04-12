@@ -1,0 +1,20 @@
+.viewdata form {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.viewdata form input {
+    width: 450px;
+    height: 40px;
+    margin: 10px;
+    padding: 0px 10px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    border: 1px solid transparent;
+}

@@ -1,0 +1,95 @@
+aside {
+    display: grid;
+    grid-template-rows: auto;
+    width: 80px;
+    height: 94vh;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    z-index: 1;
+
+}
+
+aside .icons {
+    display: grid;
+    grid-template-rows: 40px;
+    width: 70px;
+    height: 90vh;
+    color: rgb(92, 92, 178);
+    background-color: transparent;
+}
+
+aside .icons h6 {
+    margin: 10px 17px;
+    font-weight: 200;
+}
+
+aside .icons .board {
+    width: 70px;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    transition: width 1s;
+
+}
+
+aside .icons .board link {
+    text-decoration: none;
+}
+
+aside .icons .board .dashboard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+
+}
+
+aside .icons .dashboard .icon {
+    margin: 0px 20px;
+}
+
+aside .icons .dashboard h2 {
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(92, 92, 178);
+    cursor: pointer;
+}
+
+aside .icons .dashboard .setup {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+
+aside .icons .dashboard .setup .arrowforward {
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: rgb(92, 92, 178);
+}
+
+aside .icons .dashboard .setup ul {
+    position: absolute;
+    z-index: 1;
+    list-style-type: none;
+    width: 80px;
+    left: 120px;
+    overflow: hidden;
+}
+aside .icons .dashboard .setup ul li {
+color: rgb(92, 92, 178);
+}
+
+aside .icons .dashboard h2:hover {
+    color: rgb(33, 33, 236);
+}
+
+aside .icons .icon:hover {
+    transform: scale(1.3);
+    text-shadow: 0 2px 0px rgba(0, 0, 0, 0.2);
+    color: rgb(92, 92, 178);
+}

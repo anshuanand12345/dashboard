@@ -1,0 +1,30 @@
+.line{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 20px 5%;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    
+}
+.line .height h2{
+    line-height: 70px;
+    font-weight: 300;
+    color: grey;
+}
+.line .row{
+    width: 300px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 27px;
+    
+}
+.line .row h3 {
+    font-weight: 200;
+    font-size: 20px;
+}
+.line .row h3:hover{
+    color: rgb(92, 92, 178);
+}
